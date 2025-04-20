@@ -8,29 +8,27 @@ This homelab repurposes a high-end gaming PC into a flexible, virtualized enviro
 
 <table>
   <tr>
-    <td>
+    <td width="60%">
 
-<table>
-  <tr><th>Component</th><th>Description</th></tr>
-  <tr><td><strong>CPU</strong></td><td>Intel Core i7-8700K (6c/12t @ 3.7GHz)</td></tr>
-  <tr><td><strong>Motherboard</strong></td><td>ASUS ROG Strix Z370-E</td></tr>
-  <tr><td><strong>RAM</strong></td><td>32GB G.Skill DDR4 @ 3200MHz</td></tr>
-  <tr><td><strong>Boot Drive</strong></td><td>128GB Samsung MZNLF128 SSD (Proxmox host)</td></tr>
-  <tr><td><strong>VM Storage</strong></td><td>512GB TEAM TM8PS7512 NVMe SSD</td></tr>
-  <tr><td><strong>Network Card</strong></td><td>iPolex 10GbE NIC (Intel X540-T2G chipset)</td></tr>
-  <tr><td><strong>GPU (Passthrough)</strong></td><td>EVGA RTX 3070</td></tr>
-  <tr><td><strong>Wi-Fi</strong></td><td>Eero 6 Mesh Network (Bridge/Pass-Through)</td></tr>
-  <tr><td><strong>Switch</strong></td><td>TRENDnet 6-Port 10G Switch (TEG-S762)</td></tr>
-</table>
+<b>Component</b> | <b>Description</b>
+-- | --
+<strong>CPU</strong> | Intel Core i7-8700K (6c/12t @ 3.7GHz)
+<strong>Motherboard</strong> | ASUS ROG Strix Z370-E
+<strong>RAM</strong> | 32GB G.Skill DDR4 @ 3200MHz
+<strong>Boot Drive</strong> | 128GB Samsung MZNLF128 SSD (Proxmox host)
+<strong>VM Storage</strong> | 512GB TEAM TM8PS7512 NVMe SSD
+<strong>Network Card</strong> | iPolex 10GbE NIC (Intel X540-T2G chipset)
+<strong>GPU (Passthrough)</strong> | EVGA RTX 3070
+<strong>Wi-Fi</strong> | Eero 6 Mesh Network (Bridge/Pass-Through)
+<strong>Switch</strong> | TRENDnet 6-Port 10G Switch (TEG-S762)
 
-    </td>
-    <td style="vertical-align: top; padding-left: 20px;">
-      <img src="https://github.com/AdamHayball/HomeLab/blob/main/rack.png" alt="Homelab Rack" width="350"/>
+</td>
+    <td width="40%">
+      <img src="https://github.com/AdamHayball/HomeLab/blob/main/rack.png?raw=true" alt="Homelab Rack" width="100%"/>
     </td>
   </tr>
 </table>
 
-</div>
 ---
 
 ## 🖧 Virtualization Stack
