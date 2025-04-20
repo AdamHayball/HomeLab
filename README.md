@@ -6,18 +6,24 @@ This homelab repurposes a high-end gaming PC into a flexible, virtualized enviro
 
 ## 🖥️ Hardware Specs
 
-| Component               | Description                                 |
-|------------------------|---------------------------------------------|
-| **CPU**                | Intel Core i7-8700K (6c/12t @ 3.7GHz)        |
-| **Motherboard**        | ASUS ROG Strix Z370-E                       |
-| **RAM**                | 32GB G.Skill DDR4 @ 3200MHz                 |
-| **Boot Drive**         | 128GB Samsung MZNLF128 SSD (Proxmox host)  |
-| **VM Storage**         | 512GB TEAM TM8PS7512 NVMe SSD              |
-| **Network Card**       | iPolex 10GbE NIC (Intel X540-T2G chipset)  |
-| **GPU (Passthrough)**  | EVGA RTX 3070                              |
-| **Wi-Fi**              | Eero 6 Mesh Network (Bridge/Pass-Through)  |
-| **Switch**             | TRENDnet 6-Port 10G Switch (TEG-S762)      |
+<div style="display: flex; align-items: flex-start; gap: 2rem;">
 
+<table>
+  <tr><th>Component</th><th>Description</th></tr>
+  <tr><td><strong>CPU</strong></td><td>Intel Core i7-8700K (6c/12t @ 3.7GHz)</td></tr>
+  <tr><td><strong>Motherboard</strong></td><td>ASUS ROG Strix Z370-E</td></tr>
+  <tr><td><strong>RAM</strong></td><td>32GB G.Skill DDR4 @ 3200MHz</td></tr>
+  <tr><td><strong>Boot Drive</strong></td><td>128GB Samsung MZNLF128 SSD (Proxmox host)</td></tr>
+  <tr><td><strong>VM Storage</strong></td><td>512GB TEAM TM8PS7512 NVMe SSD</td></tr>
+  <tr><td><strong>Network Card</strong></td><td>iPolex 10GbE NIC (Intel X540-T2G chipset)</td></tr>
+  <tr><td><strong>GPU (Passthrough)</strong></td><td>EVGA RTX 3070</td></tr>
+  <tr><td><strong>Wi-Fi</strong></td><td>Eero 6 Mesh Network (Bridge/Pass-Through)</td></tr>
+  <tr><td><strong>Switch</strong></td><td>TRENDnet 6-Port 10G Switch (TEG-S762)</td></tr>
+</table>
+
+<img src="https://github.com/AdamHayball/HomeLab/blob/main/rack.png?raw=true" alt="Homelab Rack" width="350"/>
+
+</div>
 ---
 
 ## 🖧 Virtualization Stack
