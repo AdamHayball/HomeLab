@@ -100,7 +100,6 @@ Hosted on **Proxmox VE**, with a mix of full VMs and lightweight LXC containers:
 - Add Docker or more LXC containers for microservices
 - Implement a full monitoring stack (Grafana, Prometheus, Node Exporter)
 - Secure services with HTTPS via NGINX reverse proxy
-- Introduce CI/CD pipelines using Gitea + Drone or similar
 - Expand NICs and migrate to Mikrotik CHR solution
 
 ---
