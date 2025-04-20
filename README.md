@@ -21,6 +21,8 @@ This homelab repurposes a high-end gaming PC into a flexible, virtualized enviro
 <strong>GPU (Passthrough)</strong> | EVGA RTX 3070
 <strong>Wi-Fi</strong> | Eero 6 Mesh Network (Bridge/Pass-Through)
 <strong>Switch</strong> | TRENDnet 6-Port 10G Switch (TEG-S762)
+<strong>Server Chassis</strong> | Generic Lockable 4U Server Chassis
+<strong>VEVOR Server Rack</strong> | Open Frame 12U Server Rack
 
 </td>
     <td width="40%">
