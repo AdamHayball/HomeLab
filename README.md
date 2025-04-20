@@ -1,6 +1,6 @@
-# 🏡 Homelab: Repurposed Gaming Rig Turned Virtualized Powerhouse
+# 🏡 Homelab: Upcycled Gaming Rig Turned Virtualized Powerhouse
 
-This homelab repurposes a high-end gaming PC into a flexible, virtualized environment running on **Proxmox VE**. It supports self-hosted cloud storage, smart home automation, ad-blocking, local AI experimentation, and more—all managed from one efficient system.
+This homelab repurposes a high-end albeit older gaming PC into a flexible, virtualized environment running on **Proxmox VE**. It supports self-hosted cloud storage, smart home automation, ad-blocking, local AI experimentation, and more—all managed from one efficient system.
 
 ---
 
@@ -19,6 +19,7 @@ This homelab repurposes a high-end gaming PC into a flexible, virtualized enviro
 <strong>VM Storage</strong> | 512GB TEAM TM8PS7512 NVMe SSD
 <strong>Network Card</strong> | iPolex 10GbE NIC (Intel X540-T2G chipset)
 <strong>GPU (Passthrough)</strong> | EVGA RTX 3070
+<strong>Power Supply</strong> | EVGA 850W 80+ Gold
 <strong>Wi-Fi</strong> | Eero 6 Mesh Network (Bridge/Pass-Through)
 <strong>Switch</strong> | TRENDnet 6-Port 10G Switch (TEG-S762)
 <strong>Server Chassis</strong> | Generic Lockable 4U Server Chassis
@@ -48,7 +49,7 @@ Hosted on **Proxmox VE**, with a mix of full VMs and lightweight LXC containers:
 - **Home Assistant** *(VM)* – Controls and automates smart devices
 
 ### 📡 Test Environment
-- **MikroTik CHR** *(VM)* – Virtual router used for config testing
+- **MikroTik CHR** *(VM)* – Virtual router used for config testing of Mikrotik equipment
 
 ### 🎬 Media & Services
 - **Ubuntu Server 24.04** *(VM)* – Hosts:
@@ -100,6 +101,7 @@ Hosted on **Proxmox VE**, with a mix of full VMs and lightweight LXC containers:
 - Implement a full monitoring stack (Grafana, Prometheus, Node Exporter)
 - Secure services with HTTPS via NGINX reverse proxy
 - Introduce CI/CD pipelines using Gitea + Drone or similar
+- Expand NICs and migrate to Mikrotik CHR solution
 
 ---
 
