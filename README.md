@@ -6,7 +6,9 @@ This homelab repurposes a high-end gaming PC into a flexible, virtualized enviro
 
 ## 🖥️ Hardware Specs
 
-<div style="display: flex; align-items: flex-start; gap: 2rem;">
+<table>
+  <tr>
+    <td>
 
 <table>
   <tr><th>Component</th><th>Description</th></tr>
@@ -21,7 +23,12 @@ This homelab repurposes a high-end gaming PC into a flexible, virtualized enviro
   <tr><td><strong>Switch</strong></td><td>TRENDnet 6-Port 10G Switch (TEG-S762)</td></tr>
 </table>
 
-<img src="https://github.com/AdamHayball/HomeLab/blob/main/rack.png?raw=true" alt="Homelab Rack" width="350"/>
+    </td>
+    <td style="vertical-align: top; padding-left: 20px;">
+      <img src="https://github.com/AdamHayball/HomeLab/blob/main/rack.png" alt="Homelab Rack" width="350"/>
+    </td>
+  </tr>
+</table>
 
 </div>
 ---
