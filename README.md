@@ -64,7 +64,7 @@ Hosted on **Proxmox VE**, with a mix of full VMs and lightweight LXC containers:
 ```plaintext
                        [Internet]
                            │
-                        [Modem]
+                      [Fiber ONT]
                            │
                      [pfSense VM]
                            │
