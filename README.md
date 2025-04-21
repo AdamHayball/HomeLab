@@ -66,15 +66,15 @@ Hosted on **Proxmox VE**, with a mix of full VMs and lightweight LXC containers:
                            │
                       [Fiber ONT]
                            │
-                     [pfSense VM]
+                     [Proxmox Host]
+                           ├── pfSense (VM)
+                           ├── Pi-hole (LXC)
+                           ├── Nextcloud (LXC)
+                           ├── Home Assistant (VM)
+                           ├── Ubuntu: Jellyfin, CUPS, Ollama (VM)
+                           └── MikroTik CHR (VM)
                            │
                      [TRENDnet TEG-S762]
-                           ├── [Proxmox Host]
-                           │      ├─ Pi-hole (LXC)
-                           │      ├─ Nextcloud (LXC)
-                           │      ├─ Home Assistant (VM)
-                           │      ├─ Ubuntu: Jellyfin, CUPS, Ollama (VM)
-                           │      └── MikroTik CHR (VM)
                            ├── [Eero 6+ Mesh WiFi (Main)]
                            │      ├── [Eero 6 Satellite #1]
                            │      ├── [Eero 6 Satellite #2]
