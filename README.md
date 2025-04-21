@@ -75,7 +75,7 @@ Hosted on **Proxmox VE**, with a mix of full VMs and lightweight LXC containers:
                            │      ├─ Home Assistant (VM)
                            │      ├─ Ubuntu: Jellyfin, CUPS, Ollama (VM)
                            │      └── MikroTik CHR (VM)
-                           ├── [Eero 6 Mesh WiFi (Main)]
+                           ├── [Eero 6+ Mesh WiFi (Main)]
                            │      ├── [Eero 6 Satellite #1]
                            │      ├── [Eero 6 Satellite #2]
                            │      └── [Eero 6 Satellite #3]
