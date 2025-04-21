@@ -17,7 +17,7 @@ This homelab repurposes a high-end albeit older gaming PC into a flexible, virtu
 <strong>RAM</strong> | 32GB G.Skill DDR4 @ 3200MHz
 <strong>Boot Drive</strong> | 128GB Samsung MZNLF128 SSD (Proxmox host)
 <strong>VM Storage</strong> | 512GB TEAM TM8PS7512 SSD
-<strong>Network Card</strong> | iPolex 10GbE NIC (Intel X540-T2G chipset)
+<strong>Network Card</strong> | iPolex 10Gb Ethernet NIC (Intel X540-T2G chipset)
 <strong>GPU (Passthrough)</strong> | EVGA RTX 3070
 <strong>Power Supply</strong> | EVGA 850W 80+ Gold
 <strong>Wi-Fi</strong> | Eero 6 Mesh Network (Bridge/Pass-Through)
